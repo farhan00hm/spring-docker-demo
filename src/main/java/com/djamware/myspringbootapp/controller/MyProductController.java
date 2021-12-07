@@ -31,4 +31,9 @@ public class MyProductController {
         myProductRepository.save(newProduct);
         return "Saved";
     }
+
+    @GetMapping("/git")
+    public String testController(){
+        return "Hello Gitty";
+    }
 }
