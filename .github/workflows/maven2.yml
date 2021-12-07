@@ -45,7 +45,7 @@ jobs:
                     lsof -Pi :8080 -sTCP:LISTEN -t
                 else
                     if test -f /log.out; then
-                        rm log.out
+                        rm /log.out
                     fi
                     nohup java -jar ~/source/target/myspringbootapp-0.0.1-SNAPSHOT.jar > log.out 2>&1 &
             fi
