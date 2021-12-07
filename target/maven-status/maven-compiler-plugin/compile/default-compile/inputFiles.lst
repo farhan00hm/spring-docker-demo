@@ -1,0 +1,4 @@
+/home/user/Desktop/Practice/spring-docker-demo/src/main/java/com/djamware/myspringbootapp/entity/MyProduct.java
+/home/user/Desktop/Practice/spring-docker-demo/src/main/java/com/djamware/myspringbootapp/repository/MyProductRepository.java
+/home/user/Desktop/Practice/spring-docker-demo/src/main/java/com/djamware/myspringbootapp/controller/MyProductController.java
+/home/user/Desktop/Practice/spring-docker-demo/src/main/java/com/djamware/myspringbootapp/MyspringbootappApplication.java

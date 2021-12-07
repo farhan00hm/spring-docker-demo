@@ -1,0 +1,5 @@
+com/djamware/myspringbootapp/MyspringbootappApplication.class
+com/djamware/myspringbootapp/entity/MyProduct.class
+com/djamware/myspringbootapp/repository/MyProductRepository.class
+com/djamware/myspringbootapp/entity/MyProduct$MyProductBuilder.class
+com/djamware/myspringbootapp/controller/MyProductController.class
