@@ -43,7 +43,7 @@ jobs:
             if lsof -Pi :8080 -sTCP:LISTEN -t >/dev/null ; then
                             sudo kill -9 8080
                         else
-                            cd source/target/
+                            cd ~/source/target
                             nohup java -jar myspringbootapp-0.0.1-SNAPSHOT.jar &
                         fi
 
