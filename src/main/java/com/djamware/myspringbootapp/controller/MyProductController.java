@@ -33,7 +33,7 @@ public class MyProductController {
     }
 
     @GetMapping("/git")
-    public String testController(){
+    public @ResponseBody String testController(){
         return "Hello Gitty";
     }
 }
