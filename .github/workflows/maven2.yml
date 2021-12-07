@@ -39,12 +39,12 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           port: 22
           script: |
+            #!/bin/bash
             if lsof -Pi :8080 -sTCP:LISTEN -t >/dev/null ; then
-                            mkdir ~/test
-                            sudo kill -9 8080
-                        else
-                            cd ~/source/target
-                            nohup java -jar myspringbootapp-0.0.1-SNAPSHOT.jar &
-                        fi
+                    sudo kill -9 $(lsof -t -i:8080)
+                    lsof -Pi :8080 -sTCP:LISTEN -t
+                else
+                    nohup java -jar myspringbootapp-0.0.1-SNAPSHOT.jar &
+            fi
 
 
