@@ -34,7 +34,7 @@ public class MyProductController {
 
     @GetMapping("/git")
     public @ResponseBody String testController(){
-        return "Hello Good afternoon, Farhan";
+        return "Hello Good afternoon, Mahmud";
     }
 
     @GetMapping("/branch")
