@@ -34,6 +34,6 @@ public class MyProductController {
 
     @GetMapping("/git")
     public @ResponseBody String testController(){
-        return "Hello Gitty";
+        return "Hello Git";
     }
 }
