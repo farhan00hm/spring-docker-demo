@@ -36,4 +36,9 @@ public class MyProductController {
     public @ResponseBody String testController(){
         return "Hello Good afternoon Farhan";
     }
+
+    @GetMapping("/branch")
+    public @ResponseBody String testBranchController(){
+        return "Hello Good afternoon Branch";
+    }
 }
