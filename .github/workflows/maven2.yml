@@ -40,4 +40,4 @@ jobs:
           port: 22
           script: |
             #!/bin/bash
-            nohup java -jar source/target/myspringbootapp-0.0.1-SNAPSHOT.jar > log.out 2>&1 &
+            sudo systemctl restart credit-card-loyalty
